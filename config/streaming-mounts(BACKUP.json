@@ -1,0 +1,130 @@
+{
+	"serial" : "2014080701",
+	"3fm": {
+		"3fm" : {
+			"mounts" : {
+				"3fm-bb-mp3" : {
+					"name"		: "3fm-bb-mp3",
+					"format" 	: "audio/mp3",
+					"bitrate" 	: "192",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/3fm-bb-mp3",
+					"source2"	: "http://icecast.omroep.nl/3fm-bb-mp3",
+					"password" 	: "changethis"
+				},
+				"3fm-sb-mp3" : {
+					"name"		: "3fm-sb-mp3",
+					"format" 	: "audio/mp3",
+					"bitrate" 	: "96",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/3fm-sb-mp3",
+					"source2"	: "http://icecast.omroep.nl/3fm-sb-mp3",
+					"password" 	: "changethis"
+				},
+				"3fm-bb-aac" : {
+					"name"		: "3fm-bb-aac",
+					"format" 	: "audio/aac",
+					"bitrate" 	: "64",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/3fm-bb-aac",
+					"source2"	: "http://icecast.omroep.nl/3fm-bb-aac",
+					"password" 	: "changethis"
+				},
+				"3fm-sb-aac" : {
+					"name"		: "3fm-sb-aac",
+					"format" 	: "audio/aac",
+					"bitrate" 	: "32",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/3fm-sb-aac",
+					"source2"	: "http://icecast.omroep.nl/3fm-sb-aac",
+					"password" 	: "changethis"
+				}
+			}
+			 
+		},
+		"3fm-on-stage" : {
+			"mounts" : {
+				"3fm-live-mp3" : {
+					"name"		: "3fm-live-mp3",
+					"format" 	: "audio/mp3",
+					"bitrate" 	: "192",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/3fm-live-mp3",
+					"source2"	: "http://icecast.omroep.nl/3fm-live-mp3",
+					"password" 	: "changethis"
+				},
+				"3fm-live-aac" : {
+					"name"		: "3fm-live-aac",
+					"format" 	: "audio/aac",
+					"bitrate" 	: "64",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/3fm-live-aac",
+					"source2"	: "http://icecast.omroep.nl/3fm-live-aac",
+					"password" 	: "changethis"
+				}
+			}
+		}
+	},
+	"Radio1" : {
+		"radio1" : {
+			"mounts" : {
+				"radio1-bb-mp3" : {
+					"name"		: "radio1-bb-mp3",
+					"format" 	: "audio/mp3",
+					"bitrate" 	: "192",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/radio1-bb-mp3",
+					"source2"	: "http://icecast.omroep.nl/radio1-bb-mp3",
+					"password" 	: "changethis"
+				},
+				"radio1-sb-mp3" : {
+					"name"		: "radio1-sb-mp3",
+					"format" 	: "audio/mp3",
+					"bitrate" 	: "96",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/radio1-sb-mp3",
+					"source2"	: "http://icecast.omroep.nl/radio1-sb-mp3",
+					"password" 	: "changethis"
+				},
+				"radio1-bb-aac" : {
+					"name"		: "radio1-bb-aac",
+					"format" 	: "audio/aac",
+					"bitrate" 	: "64",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/radio1-bb-aac",
+					"source2"	: "http://icecast.omroep.nl/radio1-bb-aac",
+					"password" 	: "changethis"
+				},
+				"radio1-sb-aac" : {
+					"name"		: "radio1-sb-aac",
+					"format" 	: "audio/aac",
+					"bitrate" 	: "32",
+					"buffer"  	: "327675",
+					"burst"		: "327675",
+					"chunk"		: "1024",
+					"source1"	: "http://icecast.omroep.nl/radio1-sb-aac",
+					"source2"	: "http://icecast.omroep.nl/radio1-sb-aac",
+					"password" 	: "changethis"
+				}
+			}
+		}
+	}
+}
