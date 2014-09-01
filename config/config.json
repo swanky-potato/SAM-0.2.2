@@ -1,5 +1,6 @@
 {
     "serial": 2014080504,
+    "logLevel": "debug",
     "port" : 3000
 }
 

@@ -1,1 +1,5 @@
 node_modules/*
+tmp/*
+logs/*
+log/*
+localhost
