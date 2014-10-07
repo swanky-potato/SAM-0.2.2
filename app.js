@@ -26,7 +26,7 @@
 	this.Server_config = new Config_Loader('config');
 	this.ipAdress = '';
 	this.portNummer = null;
-
+	
 	//setting server basic configuration
 	if(process.argv[2] == undefined && process.argv[3] == undefined) {
 		logger.info('using configuration port from config.json');
